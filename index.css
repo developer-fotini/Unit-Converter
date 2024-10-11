@@ -31,7 +31,9 @@ input[type="number"] {
   input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
   }
-
+  textarea:focus, input:focus{
+    outline: none;
+}
 h1 {
     font-size: 28px;
     font-weight: 800;
