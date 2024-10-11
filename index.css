@@ -87,12 +87,14 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    
-    .conversion-container {
+    #input-container {
         width: 100vw;
     }
+    .conversion-container {
+        width: 300px;
+    }
     #output-container {
-        width: 70vw;
+        width: 100vw;
     }
     h1 {
         font-size: 20px;
